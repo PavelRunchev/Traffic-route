@@ -1,0 +1,1 @@
+System.register(["./index-legacy.js"],(function(e,t){"use strict";var n;return{setters:[e=>{n=e.X}],execute:function(){e("t",(async function(e,t){const{data:s}=await n(e,{responseType:"image",...t});return s}))}}}));

@@ -1,0 +1,1 @@
+System.register(["./index-legacy.js"],(function(e,t){"use strict";return{setters:[null],execute:function(){var t,n;e("n",t),(n=t||e("n",t={}))[n.Multiply=1]="Multiply",n[n.Ignore=2]="Ignore",n[n.Replace=3]="Replace",n[n.Tint=4]="Tint"}}}));

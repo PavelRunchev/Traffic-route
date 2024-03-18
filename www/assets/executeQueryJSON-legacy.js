@@ -1,0 +1,1 @@
+System.register(["./index-legacy.js","./query-legacy.js"],(function(e,t){"use strict";var n,a,r,c;return{setters:[e=>{n=e.E,a=e.ay,r=e.az},e=>{c=e.c}],execute:function(){async function t(e,t,n){const s=a(e),u={...n},i=r.from(t),{data:o}=await c(s,i,i.sourceSpatialReference,u);return o}e({a:t,s:async function(e,a,r){const c=await t(e,a,r);return n.fromJSON(c)}})}}}));

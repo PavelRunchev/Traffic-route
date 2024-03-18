@@ -1,0 +1,1 @@
+System.register([],(function(t,n){"use strict";return{execute:function(){t({o:function(t,e){const r=t.length;for(let o=0;o<r;++o)n[0]=t[o],e[o]=n[0];return e},r:function(t,e){const r=t.length;for(let o=0;o<r;++o)n[0]=t[o],n[1]=t[o]-n[0],e[o]=n[1];return e},t:function(t,n,e){for(let r=0;r<e;++r)n[2*r]=t[r],n[2*r+1]=t[r]-n[2*r]}});const n=new Float32Array(2)}}}));

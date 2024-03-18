@@ -1,0 +1,1 @@
+System.register(["./geometryEngineJSON-legacy2.js","./geometryEngineBase-legacy.js","./index-legacy.js","./json-legacy.js"],(function(e,n){"use strict";var t;return{setters:[e=>{t=e.O},null,null,null],execute:function(){e("executeGEOperation",(function(e){return(0,t[e.operation])(...e.parameters)}))}}}));

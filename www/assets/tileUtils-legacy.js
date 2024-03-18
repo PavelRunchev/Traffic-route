@@ -1,0 +1,1 @@
+System.register([],(function(o,e){"use strict";return{execute:function(){o("o",(function(o,e,c,r){const t=o.clone(),n=1<<t.level,l=t.col+e,u=t.row+c;return r&&l<0?(t.col=l+n,t.world-=1):l>=n?(t.col=l-n,t.world+=1):t.col=l,t.row=u,t}))}}}));

@@ -1,0 +1,1 @@
+System.register([],(function(n,o){"use strict";return{execute:function(){n({n:function*n(o,e){for(const c of o.children)if(c.localName in e){const o=e[c.localName];"function"==typeof o?yield o(c):yield*n(c,o)}},o:function n(o,e){if(o&&e)for(const c of o.children)if(c.localName in e){const o=e[c.localName];if("function"==typeof o){const e=o(c);e&&n(c,e)}else n(c,o)}}})}}}));

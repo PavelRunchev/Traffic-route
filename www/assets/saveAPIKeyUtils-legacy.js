@@ -1,0 +1,1 @@
+System.register(["./index-legacy.js"],(function(e,t){"use strict";var i,n,r;return{setters:[e=>{i=e.ap,n=e.aq,r=e.s}],execute:function(){e("i",(function(e){if(i.apiKey&&n(e.portal.url))throw new r("save-api-key-utils:api-key-not-supported",`Saving is not supported on ${e.portal.url} when using an api key`)}))}}}));

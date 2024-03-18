@@ -1,0 +1,1 @@
+System.register([],(function(t,e){"use strict";return{execute:function(){t("n",(function(t,e){let n=0;for(const r of e){const e=r.attributes?.[t];"number"==typeof e&&isFinite(e)&&(n=Math.max(n,e))}return n})),t("t",1)}}}));

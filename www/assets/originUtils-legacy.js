@@ -1,0 +1,1 @@
+System.register(["./multiOriginJSONSupportUtils-legacy.js"],(function(t,e){"use strict";var i;return{setters:[t=>{i=t.i}],execute:function(){t("i",(function(t){t?.writtenProperties&&t.writtenProperties.forEach((({target:t,propName:e,newOrigin:r})=>{i(t)&&r&&t.originOf(e)!==r&&t.updateOrigin(e,r)}))}))}}}));

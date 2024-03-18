@@ -1,0 +1,1 @@
+System.register([],(function(E,t){"use strict";return{execute:function(){var t;E("E",t),function(E){E[E.KILOBYTES=1024]="KILOBYTES",E[E.MEGABYTES=1048576]="MEGABYTES",E[E.GIGABYTES=1073741824]="GIGABYTES"}(t||E("E",t={}))}}}));

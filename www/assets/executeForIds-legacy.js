@@ -1,0 +1,1 @@
+System.register(["./index-legacy.js","./query-legacy.js"],(function(t,n){"use strict";var e,c,r,s;return{setters:[t=>{e=t.ay,c=t.az},t=>{r=t.S,s=t.p}],execute:function(){t({n:async function(t,n,s){const a=e(t);return r(a,c.from(n),{...s}).then((t=>t.data.count))},s:async function(t,n,r){const a=e(t);return s(a,c.from(n),{...r}).then((t=>t.data.objectIds))}})}}}));
