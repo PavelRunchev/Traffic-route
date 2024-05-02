@@ -1,0 +1,27 @@
+/**/
+
+@import "https://js.arcgis.com/4.29/@arcgis/core/assets/esri/themes/light/main.css";
+
+h1 {
+    text-align: center;
+}
+
+.view-container {
+    overflow: hidden;
+}
+
+#viewDiv {
+    width: 98%;
+    height: 80vh;
+    margin: 0px auto;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 20px 0px black;
+    -moz-box-shadow: 0px 0px 20px 0px black;
+    box-shadow: 0px 0px 20px 0px black;
+
+    overflow: hidden;
+}
+
+.location-container {
+    padding-left: 30px;
+}
